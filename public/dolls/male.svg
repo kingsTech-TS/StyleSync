@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="doll-root" viewBox="0 0 400 800" width="400" height="800">
+  <defs>
+    <linearGradient id="ss-cyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.28" stop-color="#000" stop-opacity="0.04"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0.09"/>
+      <stop offset="0.78" stop-color="#000" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.32"/>
+    </linearGradient>
+    <radialGradient id="ss-face" cx="0.42" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.14"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.24"/>
+    </radialGradient>
+    <linearGradient id="ss-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ss-wear" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bfc3c7"/>
+      <stop offset="0.5" stop-color="#dfe2e5"/>
+      <stop offset="1" stop-color="#b9bdc1"/>
+    </linearGradient>
+  </defs>
+  <g id="doll" data-body="male">
+    <g id="hair-back"/>
+    <g id="skin">
+      <path d="M182 144 L218 144 L224 186 L176 186 Z" fill="#c68642"/>
+      <path d="M200 170 C236 170 262 176 272 190 C280 204 274 230 266 252 C258 276 250 296 248 316 C250 344 254 368 254 388 C254 408 242 422 226 428 L200 432 L174 428 C158 422 146 408 146 388 C146 368 150 344 152 316 C150 296 142 276 134 252 C126 230 120 204 128 190 C138 176 164 170 200 170 Z" fill="#c68642"/>
+      <path d="M262 184 C280 180 292 192 294 212 C300 248 302 274 300 302 C304 338 308 370 310 400 L294 402 C288 370 282 340 280 308 C276 280 270 254 264 232 Z" fill="#c68642"/>
+      <path d="M138 184 C120 180 108 192 106 212 C100 248 98 274 100 302 C96 338 92 370 90 400 L106 402 C112 370 118 340 120 308 C124 280 130 254 136 232 Z" fill="#c68642"/>
+      <ellipse cx="302" cy="418" rx="12" ry="17" fill="#c68642"/>
+      <ellipse cx="98" cy="418" rx="12" ry="17" fill="#c68642"/>
+      <path d="M148 392 C146 450 154 510 160 560 C164 610 166 660 168 696 L194 696 C196 650 196 600 198 560 C200 520 200 470 200 428 Z" fill="#c68642"/>
+      <path d="M252 392 C254 450 246 510 240 560 C236 610 234 660 232 696 L206 696 C204 650 204 600 202 560 C200 520 200 470 200 428 Z" fill="#c68642"/>
+      <ellipse cx="180" cy="704" rx="20" ry="9" fill="#c68642"/>
+      <ellipse cx="220" cy="704" rx="20" ry="9" fill="#c68642"/>
+      <ellipse cx="151" cy="106" rx="7.5" ry="13" fill="#c68642"/>
+      <ellipse cx="249" cy="106" rx="7.5" ry="13" fill="#c68642"/>
+      <path d="M200 44 C234 44 250 70 250 102 C250 134 240 154 216 162 L184 162 C160 154 150 134 150 102 C150 70 166 44 200 44 Z" fill="#c68642"/>
+    </g>
+    <g id="skin-shade">
+      <path d="M184 161 L216 161 L224 186 L176 186 Z" fill="url(#ss-cyl)"/>
+      <ellipse cx="200" cy="166" rx="22" ry="7" fill="#000" opacity="0.15"/>
+      <path d="M200 170 C236 170 262 176 272 190 C280 204 274 230 266 252 C258 276 250 296 248 316 C250 344 254 368 254 388 C254 408 242 422 226 428 L200 432 L174 428 C158 422 146 408 146 388 C146 368 150 344 152 316 C150 296 142 276 134 252 C126 230 120 204 128 190 C138 176 164 170 200 170 Z" fill="url(#ss-cyl)"/>
+      <path d="M262 184 C280 180 292 192 294 212 C300 248 302 274 300 302 C304 338 308 370 310 400 L294 402 C288 370 282 340 280 308 C276 280 270 254 264 232 Z" fill="url(#ss-cyl)"/>
+      <path d="M138 184 C120 180 108 192 106 212 C100 248 98 274 100 302 C96 338 92 370 90 400 L106 402 C112 370 118 340 120 308 C124 280 130 254 136 232 Z" fill="url(#ss-cyl)"/>
+      <path d="M148 392 C146 450 154 510 160 560 C164 610 166 660 168 696 L194 696 C196 650 196 600 198 560 C200 520 200 470 200 428 Z" fill="url(#ss-cyl)"/>
+      <path d="M252 392 C254 450 246 510 240 560 C236 610 234 660 232 696 L206 696 C204 650 204 600 202 560 C200 520 200 470 200 428 Z" fill="url(#ss-cyl)"/>
+      <path d="M200 44 C234 44 250 70 250 102 C250 134 240 154 216 162 L184 162 C160 154 150 134 150 102 C150 70 166 44 200 44 Z" fill="url(#ss-face)"/>
+      <path d="M160 226 Q180 238 198 230 M240 226 Q220 238 202 230" stroke="#000" stroke-opacity="0.10" stroke-width="2" fill="none"/>
+      <path d="M200 236 L200 300" stroke="#000" stroke-opacity="0.06" stroke-width="2"/>
+      <ellipse cx="200" cy="330" rx="2.5" ry="3.5" fill="#000" opacity="0.16"/>
+    </g>
+    <g id="base-wear">
+      <path d="M147 380 C175 390 225 390 253 380 C255 400 246 416 228 426 L200 434 L172 426 C154 416 145 400 147 380 Z" fill="url(#ss-wear)"/>
+      <path d="M149 384 C176 393 224 393 251 384" stroke="#8d939a" stroke-width="5" fill="none"/>
+    </g>
+    <g id="slot-bottom"/>
+    <g id="slot-shoes"/>
+    <g id="slot-dress"/>
+    <g id="slot-top"/>
+    <g id="slot-outerwear"/>
+    <g id="slot-bag"/>
+    <g id="slot-accessory_1"/>
+    <g id="slot-accessory_2"/>
+    <g id="slot-accessory_3"/>
+    <g id="face">
+      <ellipse cx="181" cy="106" rx="9.5" ry="6" fill="#fbf8f4"/>
+      <ellipse cx="219" cy="106" rx="9.5" ry="6" fill="#fbf8f4"/>
+      <g id="eyes">
+        <circle cx="182" cy="106" r="5.5" fill="#4b3621"/>
+        <circle cx="218" cy="106" r="5.5" fill="#4b3621"/>
+      </g>
+      <circle cx="182" cy="106" r="2.5" fill="#14100e"/>
+      <circle cx="218" cy="106" r="2.5" fill="#14100e"/>
+      <circle cx="184" cy="103.8" r="1.5" fill="#fff"/>
+      <circle cx="220" cy="103.8" r="1.5" fill="#fff"/>
+      <path d="M171 104 Q181 96 191 103" stroke="#1d1411" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M209 103 Q219 96 229 104" stroke="#1d1411" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M202 110 Q207 126 200 130 Q196 131 193 128" stroke="#000" stroke-opacity="0.22" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M186 141 Q200 138 214 141 Q207 146 200 146 Q193 146 186 141 Z" fill="#9c5a52"/>
+      <path d="M187 141.5 Q200 150 213 141.5 Q206 148.5 200 149 Q194 148.5 187 141.5 Z" fill="#a8665e"/>
+      <path d="M170 150 Q200 168 230 150" stroke="#000" stroke-opacity="0.07" stroke-width="6" fill="none"/>
+    </g>
+    <g id="brows">
+      <path d="M168 93 Q180 85 194 90 L193 94 Q180 90 169 97 Z" fill="#2b1b12"/>
+      <path d="M232 93 Q220 85 206 90 L207 94 Q220 90 231 97 Z" fill="#2b1b12"/>
+    </g>
+    <g id="hair">
+      <path d="M150 104 C144 60 170 34 202 34 C238 34 258 60 250 104 C248 94 245 82 238 74 C222 84 194 86 170 76 C160 82 154 92 150 104 Z" fill="#2b1b12"/>
+    </g>
+    <g id="hair-shine">
+      <path d="M172 48 C188 38 216 38 232 46 C214 46 190 48 172 56 Z" fill="url(#ss-shine)"/>
+    </g>
+    <g id="slot-headwear"/>
+  </g>
+</svg>
